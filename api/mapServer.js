@@ -1,13 +1,11 @@
 import axios from 'axios';
 import { key } from './key';
 
-const weatherServer = axios.create({
+const mapServer = axios.create({
   baseURL: 'https://api.openweathermap.org/data/2.5/weather',
-
-  //api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}
 });
 
-weatherServer.interceptors.request.use(
+mapServer.interceptors.request.use(
   async (config) => {
     // called when request is made.
     config.headers.Accept = 'application/json';
@@ -23,13 +21,11 @@ weatherServer.interceptors.request.use(
   }
 );
 
-//getVideos lat, lon,
-export const getWeather = async (lon, lat, callback) => {
-  const response = await weatherServer.get(
+export const getLocation = async ( lat, lon, callback) => {
+  const response = await mapServer.get(
     `?appid=${key}&lat=${lat}&lon=${lon}&units=imperial`
-    //`?lat=${lat}&lon=${lon}&appid=${key}`
   )
   callback(response.data);
 };
 
-export default weatherServer;
+export default mapServer;

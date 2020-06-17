@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521830719060",
+    "firebase_url": "https://geo-calc-a5691.firebaseio.com",
+    "project_id": "geo-calc-a5691",
+    "storage_bucket": "geo-calc-a5691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521830719060:android:aed4280ab2c3befecb97c1",
+        "android_client_info": {
+          "package_name": "Sadocha.UtilityCalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521830719060-84glt3bgtmp92fodbvc7tcqkrqphrglt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAceK_rkkrZYC9ZBvwXXr6EU6S8ANHeCSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521830719060-84glt3bgtmp92fodbvc7tcqkrqphrglt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "521830719060-frvfd2irfark5oq2r151abnmt1mlq00q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Sadocha.UtilityCalc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,30 @@
 {
   "expo": {
+      "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.gvsu.reminders",
+      "buildNumber": "1.0.0",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "edu.gvsu.reminders",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDk6ZckahuFOX17SnqwCWw_xQvgFaJzgec",
+          "authDomain": "todoapp-9be25.firebaseapp.com",
+          "databaseURL": "https: //todoapp-9be25.firebaseio.com",
+          "projectId": "todoapp-9be25",
+          "storageBucket": "todoapp-9be25.appspot.com",
+          "messagingSenderId": "854644454322",
+          "appId": "1: 854644454322:web:ad4db56308f97db69daaab",
+          "measurementId": "G-XKC1HVG4LQ"
+        }
+      }
+    },
     "name": "project1",
     "slug": "project1",
     "platforms": [
